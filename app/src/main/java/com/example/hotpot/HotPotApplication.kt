@@ -1,4 +1,10 @@
 package com.example.hotpot
 
-class HotPotApplication {
+import android.app.Application
+
+class HotPotApplication : Application() {
+    override fun onCreate() {
+        super.onCreate()
+
+    }
 }
